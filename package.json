@@ -1,0 +1,25 @@
+{
+  "name": "js_testing",
+  "version": "1.0.0",
+  "description": "Skola Rajak QA kurs JS Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexssus/js_testing.git"
+  },
+  "author": "Negovan Milenkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nexssus/js_testing/issues"
+  },
+  "homepage": "https://github.com/Nexssus/js_testing#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.0.0",
+    "selenium-webdriver": "^4.1.2"
+  }
+}
